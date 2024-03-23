@@ -1,0 +1,58 @@
+@media (max-width: 500px) {
+  .nav-list {
+    display: none;
+  }
+  .header {
+    padding: 0px 18px;
+  }
+
+  .menu-bar {
+    display: block;
+  }
+  /* main */
+  .container-main {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  .text-section h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .text-section p {
+    max-width: 328px;
+    font-size: 16px;
+    line-height: 23.5px;
+    text-align: center;
+    margin: 21px auto 27px auto;
+    /* margin: 21px auto 27px auto; აქ მარჯინის გარეშე არ გასწორდა, და ვერ მივხვდი რატო დამჭირდა? */
+  }
+  .download-btn {
+    margin-bottom: 59px;
+  }
+
+  /* blogs */
+  .viewall {
+    display: none;
+  }
+  .blog-head {
+    display: block;
+    text-align: center;
+  }
+  .container-blog {
+    display: flex;
+    flex-direction: column;
+    row-gap: 17px;
+    padding: 10px;
+  }
+  .blog-head h4 {
+    font-size: 18px;
+    line-height: 60px;
+  }
+  .card-one h3 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
