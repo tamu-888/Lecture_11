@@ -140,3 +140,6 @@ a {
 button {
   border: none;
 }
+a {
+  all: initial; /* Сбрасываем все свойства стиля */
+}
